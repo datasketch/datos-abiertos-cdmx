@@ -1,13 +1,15 @@
 {{ define "main" }}
-<div class="bg-soft-white">
+<div class="bg-soft-white bg-center bg-cover" style="background-image: url(/images/banner-bg.png);">
   <div class="max-w-screen-2xl mx-auto px-5 py-10 text-center">
     <h2 class="text-big-dip-oruby font-gotham text-3xl">Víctimas en carpetas de investigación FGJ</h2>
     <p class="text-pullman-brown font-bold text-sm mt-5">Denuncias entre Enero de 2019 y Enero de 2022</p>
   </div>
 </div>
-<div class="max-w-screen-2xl mx-auto px-5 py-10 text-center">
-  <div class="aspect-w-16 aspect-h-9">
-    <iframe src="https://datasketch.shinyapps.io/cdmxApp/" frameborder="0"></iframe>
+<div class="max-w-screen-2xl mx-auto px-5 pt-1 pb-4 text-center">
+  <div class="mx-auto" style="max-width: 1108px;">
+    <div class="aspect-w-16 aspect-h-9">
+      <iframe src="https://datasketch.shinyapps.io/cdmxApp/" frameborder="0"></iframe>
+    </div>
   </div>
 </div>
 {{ end }}

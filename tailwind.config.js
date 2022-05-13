@@ -17,7 +17,8 @@ module.exports = {
         nickel: '#6F7271',
         'soft-white': '#ECEDEF',
         'field-drab': '#6A522F',
-        'pullman-brown': '#624720'
+        'pullman-brown': '#624720',
+        aqua: '#3998A5'
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
